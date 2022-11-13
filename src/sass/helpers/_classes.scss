@@ -1,0 +1,63 @@
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+.margin-top {
+    margin-top: 0.5rem;
+}
+
+.sec {
+    padding: 1rem;
+}
+.sec-margin {
+    margin-top: 7rem;
+}
+.date {
+    font : {
+        size: 0.7rem;
+    }
+    text-transform: uppercase;
+}
+
+.bor-bot {
+    border-bottom: 1px solid $mid-color;
+}
+.musicLinks {
+    a {
+        border: 1px solid $mid-color;
+        padding: 0.5rem;
+        border-radius: 10px;
+        margin: 1rem 1rem 1rem 0;
+        color: $mid-color;
+        text-decoration: none;
+        &:hover {
+            box-shadow: inset 0px 1px 3px $mid-color;
+            color: $dark-color;
+        }
+        
+        font : {
+            size: 1rem;
+        }
+    }
+    
+}
+
+.video-mini {
+    width: 280px;
+    img {
+        display: block;
+        margin: 0.5rem auto;
+        width: 270px;
+    }
+    h6 {
+        text-align: center;
+    }
+}
+
+.contact {
+    padding: 1rem 2rem;
+    a {
+        display: block;
+        width: 7rem;
+        margin: 1rem 0;
+    }
+}

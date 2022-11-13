@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Kolker+Brush&display=swap");
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-top {
+  margin-top: 0.5rem;
+}
+
+.sec {
+  padding: 1rem;
+}
+
+.sec-margin {
+  margin-top: 7rem;
+}
+
+.date {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.bor-bot {
+  border-bottom: 1px solid hsl(240deg, 5%, 50%);
+}
+
+.musicLinks a {
+  border: 1px solid hsl(240deg, 5%, 50%);
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 1rem 1rem 1rem 0;
+  color: hsl(240deg, 5%, 50%);
+  text-decoration: none;
+  font-size: 1rem;
+}
+.musicLinks a:hover {
+  box-shadow: inset 0px 1px 3px hsl(240deg, 5%, 50%);
+  color: hsl(240deg, 6%, 10%);
+}
+
+.video-mini {
+  width: 280px;
+}
+.video-mini img {
+  display: block;
+  margin: 0.5rem auto;
+  width: 270px;
+}
+.video-mini h6 {
+  text-align: center;
+}
+
+.contact {
+  padding: 1rem 2rem;
+}
+.contact a {
+  display: block;
+  width: 7rem;
+  margin: 1rem 0;
+}
+
+header {
+  background-color: hsla(0deg, 0%, 97%, 0.95);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header img {
+  height: 2rem;
+  display: inline-block;
+  margin: 1rem;
+}
+header a {
+  color: hsl(240deg, 5%, 50%);
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+header span {
+  color: hsl(240deg, 6%, 10%);
+}
+
+.hamburger {
+  position: relative;
+  right: 10px;
+}
+.hamburger > span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: hsl(240deg, 6%, 10%);
+  transition: all 100ms ease-in-out;
+  transform-origin: 4px 2px;
+}
+.hamburger > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+.hamburger.open > span:first-child {
+  transform: rotate(45deg);
+}
+.hamburger.open > span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.open > span:last-child {
+  transform: rotate(-45deg);
+}
+
+.mobmenu {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  margin: 0 0 0 -25%;
+  width: 50%;
+  z-index: 5;
+}
+.mobmenu.mm-open {
+  display: block;
+}
+.mobmenu.mm-close {
+  display: none;
+}
+.mobmenu a {
+  display: block;
+  margin: 0 auto 2px auto;
+  padding: 0.5rem;
+  background-color: hsl(0deg, 0%, 97%);
+  text-align: center;
+  font-family: "Quattrocento", serif;
+  font-size: 1rem;
+  font-weight: 200;
+  text-decoration: none;
+  color: hsl(240deg, 5%, 50%);
+}
+.mobmenu a:hover {
+  color: hsl(0deg, 0%, 97%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/public/images/background-opt.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  color: hsl(240deg, 6%, 10%);
+}
+
+h1 {
+  display: inline-block;
+  margin: auto 0.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: black;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.content {
+  background-color: hsla(0deg, 0%, 97%, 0.95);
+}
+
+.jumbo {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.fa-connect {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.connect {
+  background-color: hsla(240deg, 6%, 15%, 0.9);
+  padding: 1rem 0;
+}
+.connect a {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 97%);
+  margin: 0 1rem;
+}
+
+.home-form {
+  display: block;
+  width: 90%;
+  margin: 1rem auto 0 auto;
+}
+@media (min-width: 576px) {
+  .home-form {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .home-form {
+    width: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

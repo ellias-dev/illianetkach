@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    
+  }
+body {
+    background-image: url('/public/images/background-opt.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    color: $dark-color;
+    
+}
+h1 {
+    display: inline-block;
+    margin: auto 0.5rem;
+    font : {
+        family: $oswald;
+        size: 1.8rem;
+        weight: 200;
+    }
+    color: black;
+    text-transform: uppercase;
+    
+    
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.content {
+    background-color: $light-op;
+}
+

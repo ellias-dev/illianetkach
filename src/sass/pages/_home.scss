@@ -1,0 +1,32 @@
+.jumbo {
+    padding: 0;
+    margin-bottom: 0;
+}
+.fa-connect {
+    width:95%;
+    margin: 0 auto;
+}
+.connect {
+    background-color: $dark-op;
+    padding: 1rem 0;
+    a {
+        font : {
+            size: 1.5rem;
+        }
+        color: $light-color;
+        margin: 0 1rem;
+        
+    }
+}
+.home-form {
+    display: block;
+    width: 90%;
+    margin: 1rem auto 0 auto;
+    @include breakpoint-up(small){
+        width: 70%;
+    }
+    @include breakpoint-up(medium){
+        width: 50%;
+    }
+}
+

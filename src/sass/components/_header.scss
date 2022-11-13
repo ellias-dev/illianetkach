@@ -1,0 +1,95 @@
+header {
+    background-color: $light-op;
+    position:sticky;
+    top:0;
+    z-index: 10;
+    img {
+        height: 2rem;
+        display:inline-block;
+        margin: 1rem;
+        
+    }
+    
+    a {
+        color: $mid-color;
+        font : {
+            family: $oswald;
+        }
+        text-transform: uppercase;
+    }
+    span {
+        color: $dark-color;
+    }
+}
+
+
+// Hamburger
+.hamburger {
+    position: relative;
+    right: 10px;
+    //margin-right: 1rem;
+        >span {
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: $dark-color;
+            &:not(:last-child){
+                margin-bottom: 5px;
+            }
+            transition: all 100ms ease-in-out;
+            transform-origin: 4px 2px;
+        }
+        &.open {
+            >span:first-child {
+                transform: rotate(45deg);
+            }
+            >span:nth-child(2){
+                opacity: 0;
+            }
+            >span:last-child {
+                transform: rotate(-45deg);
+            }
+            
+        }
+}
+
+// mobmenu
+
+.mobmenu {
+    &.mm-open {
+        display:block;
+    }
+    &.mm-close {
+        display:none;
+    }
+    position: fixed;
+    top: 5rem;
+    left: 50%;
+    margin: 0 0 0 -25%;
+    width: 50%;
+    z-index: 5;
+    a {
+        display: block;
+        margin: 0 auto 2px auto;
+        padding: 0.5rem;
+        
+        background-color: $light-color;
+        text-align: center;
+
+        font : {
+            family: $quattro;
+            size: 1rem;
+            weight: 200;
+        }
+        text-decoration: none;
+        color: $mid-color;
+        &:hover {
+            color: $light-color;
+        }
+    }
+}
+
+
+
+
+
