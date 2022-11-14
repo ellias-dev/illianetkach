@@ -8,6 +8,7 @@ import { Music } from './react-components/audio/audio';
 import { Video } from './react-components/video/video';
 import { Bio } from './react-components/bio';
 import { Contact } from './react-components/contact';
+import { ScrollToTop } from './scrolltotop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Router>
       <div>
         <Header />
+        <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/news' element={<News />} />
@@ -30,6 +32,7 @@ function App() {
           
           
         </Routes>
+        </ScrollToTop>
       </div>
     </Router>
    
