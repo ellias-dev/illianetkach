@@ -11,6 +11,10 @@
 .sec-margin {
     margin-top: 7rem;
 }
+
+.press {
+    padding: 2rem 3rem;
+}
 .date {
     font : {
         size: 0.7rem;
@@ -60,4 +64,38 @@
         width: 7rem;
         margin: 1rem 0;
     }
+}
+
+footer {
+    background-color: hsl(240, 6%, 21%);
+    padding: 0.7rem;
+    
+    
+    font : {
+        weight: 200;
+        family: $quattro;
+        size: 1rem;
+    }
+        color: $light-color;
+        text-align: center; 
+}
+
+.footer-connect {
+    width: 95%;
+    margin: 0.5rem auto;
+    
+    a {
+        font-size: 1.4rem;
+        
+        
+        color: $light-color;
+        margin: 0 1rem;
+        @include breakpoint-up(small){
+            font-size: 2rem;
+        }
+    }
+    @include breakpoint-up(medium){
+        width: 50%;
+    }
+    
 }

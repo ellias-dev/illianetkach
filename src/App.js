@@ -8,6 +8,7 @@ import { Music } from './react-components/audio/audio';
 import { Video } from './react-components/video/video';
 import { Bio } from './react-components/bio';
 import { Contact } from './react-components/contact';
+import { Footer } from './react-components/footer';
 import { ScrollToTop } from './scrolltotop';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -33,6 +34,7 @@ function App() {
           
         </Routes>
         </ScrollToTop>
+        <Footer />
       </div>
     </Router>
    
