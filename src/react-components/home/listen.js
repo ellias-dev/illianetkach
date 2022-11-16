@@ -6,11 +6,12 @@ export const Listen = () => {
         <div className="container-fluid sec content">
             <h3>out now</h3>
             <div className="row sec">
-                <div className="col-12 col-lg-6 sec">
-                <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6bprY9I9kRwtCYwdWftj3c?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <div className="col-12 col-lg-3 sec">
+                {/* <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6bprY9I9kRwtCYwdWftj3c?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
+                <img src={ilyanetkachAudio[0].image} className='img-fluid mx-auto d-block' />
 
                 </div>
-                <div className="col-12 col-lg-6 sec">
+                <div className="col-12 col-lg-9 sec">
                     <h4>{ilyanetkachAudio[0].title}</h4>
                     <p>{ilyanetkachAudio[0].description}</p>
                     <div className="musicLinks d-flex flex-wrap">
