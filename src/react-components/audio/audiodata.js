@@ -18,7 +18,7 @@ export const ilyanetkachAudio = [
         title: `Rain & Dust`,
         type: `Single`,
         date: `February 14, 2020`,
-        image: `./images/album-artworks/rain-dust-cover.jpg`,
+        image: `./images/album-artworks/rain-dust-cover.webp`,
         description: `I was experimenting with sounds I can get from my electric violin (and so I still do), so don’t be surprised to hear some new things from me. Also, you might hear some oriental motifs, mixed with artificial electronic stuff – well, ideas kept popping up and I didn’t resist. It can sound somewhat eclectic (very unusual for me, isn’t it?) but that’s how I see it for now.`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6bprY9I9kRwtCYwdWftj3c?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
         credits: `Illia Netkach - violin, keyboard, bass & drums programming, mixing and mastering.`,
@@ -34,7 +34,7 @@ export const ilyanetkachAudio = [
         title: `I Am`,
         type: `EP`,
         date: `October 21, 2017`,
-        image: `./images/album-artworks/iam.jpg`,
+        image: `./images/album-artworks/iam.webp`,
         description: `"Netkach stays frank and spontaneous in the moment while choosing each note with care, and the result is an exotic work that feels over in a blink, but still says a lot in a short time."
         © Geno Thackara, "All About Jazz"`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/album/6liR2snpp1PUEW6wkofYZ1?utm_source=generator" width="100%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
@@ -51,7 +51,7 @@ export const ilyanetkachAudio = [
         title: `Razzberty`,
         type: `Single`,
         date: `March 23, 2016`,
-        image: `./images/album-artworks/razzberty.jpg`,
+        image: `./images/album-artworks/razzberty.webp`,
         description: `The song was composed during one of the worst periods of my life. I was facing big problems I had no idea how to manage. I had lost my grandpa and I was discovering just how snaky and selfish people could be.
         One day I went to my university and saw a big sign depicting a flower growing out of the snow. The inscription said “All reborn”. That made me cry like a baby but turn in the right way. But it will be the next day and the day before I felt like a big piece of darkness. I went home and drank first beer, then cognac. After this medicine, all my black thoughts came out and this song was born.`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6spoF2tXMXZB5PhdUpaIP3?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
@@ -68,7 +68,7 @@ export const ilyanetkachAudio = [
         title: `Diamonds & Glass`,
         type: `Single`,
         date: `November 19, 2015`,
-        image: `./images/album-artworks/diamond-and-glass.jpg`,
+        image: `./images/album-artworks/diamond-and-glass.webp`,
         description: `This track was composed in Bahrain, where I used to work as a Violin Teacher. That was an interesting experience, I met very good and very bad people there. In general, that period of my life was full of weird stuff. It reflects in this piece somehow.`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/37KSuNBGPAzbFUWTgeeWBD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
         credits: `Ilya Netkach - violin; Alexander Gloshkin - keyboard, guitar, bass`,
@@ -84,7 +84,7 @@ export const ilyanetkachAudio = [
         title: `Page Not Found`,
         type: `Single`,
         date: `June 1, 2015`,
-        image: `./images/album-artworks/page-not-found.jpg`,
+        image: `./images/album-artworks/page-not-found.webp`,
         description: `These three pieces are perhaps the first ones I composed. I still remember myself playing around with the chord progressions for "Dance In The Rain" on my almost broken piano at home.
         "Apologise & Promise" was out as a rough demo a couple of years before this release, however, this version sounds very different from the initial idea.
         Finally, "Angel's Dance: Page Not Found" was mainly composed at the music school I used to work in 2013. The idea came up when I was watching the snowflakes falling and dancing in the air.
@@ -103,7 +103,7 @@ export const ilyanetkachAudio = [
         title: `Verbovaya Doshechka`,
         type: `Single`,
         date: `March 31, 2015`,
-        image: `./images/album-artworks/doshechka.jpg`,
+        image: `./images/album-artworks/doshechka.webp`,
         description: `Verbovaya Doshechka is Ukrainian Traditional song. Together with my dear friends Alexander Gloshkin and Julia Melnik, we decided to arrange it in the style of fusion, and we really like the outcome. Actually, the major work is done by Alexander, whose ideas are predominant in the track, also he recorded most of the instruments. You can hear an amazing voice of Julia Melnik throughout the song, and there is just a short solo of mine.`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6NAw31ibft1Pt5J7okvR6p?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
         credits: `Illia Netkach - violin; Alexander Gloshkin - keyboards, guitar, bass, drums; Julia Melnik - vocal`,
@@ -119,7 +119,7 @@ export const ilyanetkachAudio = [
         title: `Lugsana`,
         type: `Single`,
         date: `December 31, 2012`,
-        image: `./images/album-artworks/lugsana.jpg`,
+        image: `./images/album-artworks/lugsana.webp`,
         description: `Dear friends! It’s a great honor for me to present my first record to you. Its name translates as «the Prayer», and really, this song was composed in such a state of mind. It is a spiritual impulse in the style of fusion :) Enjoy!`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/album/3AMCLSdWwNNMQMA9T4fCuB?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
         credits: `Illia Netkach - violin; Andrew Tolmachev - guitar; Alexander Gloshkin - bass`,
