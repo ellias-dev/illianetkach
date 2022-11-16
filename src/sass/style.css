@@ -94,6 +94,14 @@ footer {
   }
 }
 
+.videominis {
+  color: hsl(240deg, 6%, 10%);
+  margin-bottom: 1rem;
+}
+.videominis:hover {
+  color: hsl(240deg, 6%, 10%);
+}
+
 header {
   background-color: hsla(0deg, 0%, 97%, 0.95);
   position: -webkit-sticky;

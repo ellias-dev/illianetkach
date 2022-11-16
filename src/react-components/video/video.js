@@ -18,7 +18,7 @@ export const Video = () => {
         }
         return (
             
-                    <a href='#mainvideo'>
+                    <a href='#mainvideo' className='videominis'>
                         <div className="video-mini" onClick={clickHandler}>
                             <img src={videosample.pic}></img>
                             
