@@ -13,7 +13,7 @@ export const Home = () => {
             <Connect />
             <Listen />
             <LatestNews />
-            <RecentVideo />
+            {/* <RecentVideo /> */}
             <Press />
             
         </div>
