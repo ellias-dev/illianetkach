@@ -8,6 +8,7 @@ export const Listen = () => {
             <div className="row sec">
                 <div className="col-12 col-lg-6 sec">
                 <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/6bprY9I9kRwtCYwdWftj3c?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
                 </div>
                 <div className="col-12 col-lg-6 sec">
                     <h4>{ilyanetkachAudio[0].title}</h4>

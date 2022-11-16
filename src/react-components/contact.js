@@ -30,7 +30,7 @@ export const Contact = () => {
                             <a href='https://instagram.com/illianetkach' target='_blank'><i class="fa-brands fa-square-instagram"></i> Instagram</a>
                             <a href='https://www.facebook.com/IlyaNetkach/' target='_blank'><i class="fa-brands fa-facebook"></i> Facebook</a>
                             <a href='https://twitter.com/illianetkach' target='_blank'><i class="fa-brands fa-twitter"></i> Twitter</a>
-                            {/* <a href='#' target='_blank'><i class="fa-brands fa-mastodon"></i> Mastodon</a> */}
+                            <a href='https://mastodon.social/@illianetkach' target='_blank'><i class="fa-brands fa-mastodon"></i> Mastodon</a>
                             
                         </div>
                     </div>
