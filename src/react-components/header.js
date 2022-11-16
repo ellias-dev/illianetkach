@@ -14,7 +14,7 @@ export const Header = () => {
           
           <nav id='nav-dt' className='d-none col-lg-7  d-lg-flex justify-content-around align-items-center'>
 
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/' end>Home</NavLink>
             <NavLink to='/news'>News</NavLink>
             <NavLink to='/events'>Events</NavLink>
             <NavLink to='/music'>Music</NavLink>

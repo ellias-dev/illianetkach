@@ -111,7 +111,15 @@ header a {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
 }
+header a:hover {
+  color: hsl(240deg, 6%, 10%);
+  text-decoration: none;
+}
 header span {
+  color: hsl(240deg, 6%, 10%);
+}
+
+.active {
   color: hsl(240deg, 6%, 10%);
 }
 
@@ -156,10 +164,11 @@ header span {
 }
 .mobmenu a {
   display: block;
-  margin: 0 auto 2px auto;
+  margin: 0 auto 0 auto;
   padding: 0.5rem;
   background-color: hsl(0deg, 0%, 97%);
   text-align: center;
+  border-bottom: 1px solid hsl(240deg, 5%, 50%);
   font-family: "Quattrocento", serif;
   font-size: 1rem;
   font-weight: 200;
@@ -167,7 +176,7 @@ header span {
   color: hsl(240deg, 5%, 50%);
 }
 .mobmenu a:hover {
-  color: hsl(0deg, 0%, 97%);
+  color: hsl(240deg, 6%, 10%);
 }
 
 * {
