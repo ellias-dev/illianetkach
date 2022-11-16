@@ -14,6 +14,14 @@
 
 .press {
     padding: 2rem 3rem;
+    a {
+        float: right;
+        color: $dark-color;
+        font-weight: 200;
+        &:hover {
+            color: $dark-color;
+        }
+    }
 }
 .date {
     font : {

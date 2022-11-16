@@ -19,6 +19,14 @@
 .press {
   padding: 2rem 3rem;
 }
+.press a {
+  float: right;
+  color: hsl(240deg, 6%, 10%);
+  font-weight: 200;
+}
+.press a:hover {
+  color: hsl(240deg, 6%, 10%);
+}
 
 .date {
   font-size: 0.7rem;
