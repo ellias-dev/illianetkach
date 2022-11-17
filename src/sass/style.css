@@ -217,11 +217,21 @@ html {
 }
 
 body {
-  background-image: url("/public/images/background-opt.jpg");
+  background-image: url("/public/images/background-opt576.jpg");
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+@media (min-width: 576px) {
+  body {
+    background-image: url("/public/images/background-opt768.jpg");
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url("/public/images/background-opt.jpg");
+  }
 }
 
 p {
