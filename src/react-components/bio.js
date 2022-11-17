@@ -5,7 +5,13 @@ export const Bio = () => {
         <div className="sec sec-margin content">
             <h2>Bio</h2>
             <div className="sec">
-                <img src='./images/photos/bio.jpg' className="img-fluid margin-bottom"></img>
+                {/* <img src='./images/photos/bio.jpg' className="img-fluid margin-bottom"></img> */}
+
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./images/photos/bio.jpg" className="img-fluid margin-bottom"></source>
+                    <source media="(min-width: 576px)" srcset="./images/photos/bio992.jpg" className="img-fluid margin-bottom"></source>
+                    <img src="./images/photos/bio576.jpg" className="img-fluid margin-bottom"></img>
+                </picture>
             <p> Hi! I am Ilya Netkach, a professional violinist from Ukraine.
 
 I graduated from Kharkov State College of Music (2006) with a formal classical education. However, I was keen to acquire improvisation skills – jazz in particular – and soon started attending jazz jams and playing gigs, both solo and as a session musician.</p>
