@@ -71,7 +71,7 @@ export const ilyanetkachAudio = [
         image: `./images/album-artworks/diamond-and-glass.jpg`,
         description: `This track was composed in Bahrain, where I used to work as a Violin Teacher. That was an interesting experience, I met very good and very bad people there. In general, that period of my life was full of weird stuff. It reflects in this piece somehow.`,
         player: <iframe styleName="border-radius:12px" src="https://open.spotify.com/embed/track/37KSuNBGPAzbFUWTgeeWBD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
-        credits: `Ilya Netkach - violin; Alexander Gloshkin - keyboard, guitar, bass`,
+        credits: `Illia Netkach - violin; Alexander Gloshkin - keyboard, guitar, bass`,
         links: {
             bandcamp: `https://ilyanetkach.bandcamp.com/track/diamonds-glass`,
             spotify: `https://open.spotify.com/album/6VyQzRTvhVu30BFdj5u1q4?si=imMDtRZ4Q1Oqm5YtlKn5MA&nd=1`,

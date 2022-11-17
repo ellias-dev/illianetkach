@@ -8,6 +8,12 @@
 .sec {
     padding: 1rem;
 }
+.article-sec {
+    padding: 1rem 0;
+    @include breakpoint-up(small){
+        padding: 1rem;
+    }
+}
 .sec-margin {
     margin-top: 7rem;
 }
@@ -97,6 +103,9 @@ footer {
         
         
         color: $light-color;
+        &:hover {
+            color: hsl(240, 5%, 75%);
+        }
         margin: 0 1rem;
         @include breakpoint-up(small){
             font-size: 2rem;

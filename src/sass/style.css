@@ -12,6 +12,15 @@
   padding: 1rem;
 }
 
+.article-sec {
+  padding: 1rem 0;
+}
+@media (min-width: 576px) {
+  .article-sec {
+    padding: 1rem;
+  }
+}
+
 .sec-margin {
   margin-top: 7rem;
 }
@@ -90,6 +99,9 @@ footer {
   font-size: 1.4rem;
   color: hsl(0deg, 0%, 97%);
   margin: 0 1rem;
+}
+.footer-connect a:hover {
+  color: hsl(240deg, 5%, 75%);
 }
 @media (min-width: 576px) {
   .footer-connect a {
@@ -246,12 +258,26 @@ h2 {
 
 .connect {
   background-color: hsla(240deg, 6%, 15%, 0.9);
-  padding: 1rem 0;
+  padding: 0.5rem 0;
+}
+@media (min-width: 576px) {
+  .connect {
+    padding: 1rem 0;
+  }
 }
 .connect a {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  width: 35%;
   color: hsl(0deg, 0%, 97%);
   margin: 0 1rem;
+}
+@media (min-width: 576px) {
+  .connect a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.5rem;
+  }
 }
 
 .home-form {
