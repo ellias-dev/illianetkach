@@ -38,7 +38,7 @@ export const Hamburger = () => {
                 <Link to='/video' onClick={handleLinkClick}>Video</Link>
                 <Link to='/bio' onClick={handleLinkClick}>Bio</Link>
                 <Link to='/contact' onClick={handleLinkClick}>Contact</Link>
-                <Link to='/subscribe' onClick={handleLinkClick}>Subscribe</Link>
+                <a href='https://www.subscribepage.com/illianetkach' target='_blank' onClick={handleLinkClick}>Subscribe</a>
             </div>
             
         </div>
