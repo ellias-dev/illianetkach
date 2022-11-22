@@ -21,7 +21,7 @@ export const Header = () => {
             <NavLink to='/video'>Video</NavLink>
             <NavLink to='/bio'>Bio</NavLink>
             <NavLink to='/contact'>Contact</NavLink>
-            <NavLink to='/subscribe'>Subscribe</NavLink>
+            <a href='https://www.subscribepage.com/illianetkach' target='_blank'>Subscribe</a>
           </nav>
           <div className='col-1 d-flex justify-content-end align-items-center d-lg-none'>
             <Hamburger />
