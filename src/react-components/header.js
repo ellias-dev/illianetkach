@@ -8,7 +8,7 @@ export const Header = () => {
       <header className='container-fluid'>
         <div className='row d-flex flex-nowrap'>
           <div className='col-11 col-lg-5 d-flex flex-nowrap justify-items-start'>
-              <img src='/logo.svg'></img>
+              <img src='/logo.svg' alt='Illia Netkach Logo'></img>
               <h1>Illia Netkach</h1>
           </div>
           
