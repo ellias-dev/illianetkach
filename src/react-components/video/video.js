@@ -20,7 +20,7 @@ export const Video = () => {
             
                     <a href='#mainvideo' className='videominis'>
                         <div className="video-mini" onClick={clickHandler}>
-                            <img src={videosample.pic}></img>
+                            <img src={videosample.pic} alt={'Illia Netkach - ' + videosample.title}></img>
                             
                                 <h6>{videosample.title}</h6>
                             

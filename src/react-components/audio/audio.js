@@ -8,7 +8,7 @@ export const Music = () => {
                 <div className="row sec">
                     
                     <div className="col-12 col-md-3 sec">
-                        <img src={album.image} className='img-fluid mx-auto d-block'></img>
+                        <img src={album.image} className='img-fluid mx-auto d-block' alt={'Illia Netkach - ' + album.title}></img>
                     </div>
                     <div className="col-12 col-md-9 sec">
                         <h3 align='center' id={album.id}>{album.title}</h3>

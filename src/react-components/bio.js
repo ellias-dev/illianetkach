@@ -8,9 +8,9 @@ export const Bio = () => {
                 {/* <img src='./images/photos/bio.jpg' className="img-fluid margin-bottom"></img> */}
 
                 <picture>
-                    <source media="(min-width: 992px)" srcset="./images/photos/bio.jpg" className="img-fluid margin-bottom"></source>
-                    <source media="(min-width: 576px)" srcset="./images/photos/bio992.jpg" className="img-fluid margin-bottom"></source>
-                    <img src="./images/photos/bio576.jpg" className="img-fluid margin-bottom"></img>
+                    <source media="(min-width: 992px)" srcset="./images/photos/bio.jpg" className="img-fluid margin-bottom" alt='Illia Netkach'></source>
+                    <source media="(min-width: 576px)" srcset="./images/photos/bio992.jpg" className="img-fluid margin-bottom" alt='Illia Netkach'></source>
+                    <img src="./images/photos/bio576.jpg" className="img-fluid margin-bottom" alt='Illia Netkach'></img>
                 </picture>
             <p> Hi! I am Ilya Netkach, a professional violinist from Ukraine.
 
