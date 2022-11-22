@@ -7,7 +7,7 @@ html {
     
   }
 body {
-    background-image: url('/public/images/bkg1minimobile.jpg');
+    background-image: url('/public/images/bkg4allmobile.jpg');
     @include breakpoint-up(small){
         background-image: url('/public/images/background-opt768.jpg');
     }
