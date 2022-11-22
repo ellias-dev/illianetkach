@@ -10,7 +10,7 @@ export const MiniNews = (props) => {
             <h4>{props.article.title}</h4>
             <p>{props.article.shortText}</p>
 
-            <Link to={targ}>Read More</Link>
+            <Link to={targ} alt='news'>Read More</Link>
 
             
         </div>
