@@ -19,7 +19,7 @@ export const surLeFil = {
     title: 'Sur Le Fil',
     shortText: ` "Sur Le Fil" (OST "Le Fabuleux Destin d'Amélie Poulain" / "Amelie") 
     Composer - Yann Tiersen
-    Arranged and performed by Ilya Netkach (Ukraine) on violin, Nadia Lopchynska (Ukraine) on piano and Ryan John (Bahrain) on drums.
+    Arranged and performed by Illia Netkach (Ukraine) on violin, Nadia Lopchynska (Ukraine) on piano and Ryan John (Bahrain) on drums.
     Performed, recorded, mixed and mastered in Kingdom of Bahrain 7/09-11/09/2015.`,
     content: surlefil,
     date: 'September 9, 2015'
