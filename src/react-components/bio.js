@@ -12,7 +12,7 @@ export const Bio = () => {
                     <source media="(min-width: 576px)" srcset="./images/photos/bio992.jpg" className="img-fluid margin-bottom" alt='Illia Netkach'></source>
                     <img src="./images/photos/bio576.jpg" className="img-fluid margin-bottom" alt='Illia Netkach'></img>
                 </picture>
-            <p> Hi! I am Ilya Netkach, a professional violinist from Ukraine.
+            <p> Hi! I am Illia Netkach, a professional violinist from Ukraine.
 
 I graduated from Kharkov State College of Music (2006) with a formal classical education. However, I was keen to acquire improvisation skills – jazz in particular – and soon started attending jazz jams and playing gigs, both solo and as a session musician.</p>
 
