@@ -29,7 +29,6 @@ export const Contact = () => {
                         <div>
                             <a href='https://instagram.com/illianetkach' target='_blank' alt='Instagram'><i class="fa-brands fa-square-instagram"></i> Instagram</a>
                             <a href='https://www.facebook.com/IlyaNetkach/' target='_blank' alt='Facebook'><i class="fa-brands fa-facebook"></i> Facebook</a>
-                            <a href='https://twitter.com/illianetkach' target='_blank' alt='Twitter'><i class="fa-brands fa-twitter"></i> Twitter</a>
                             <a href='https://mastodon.social/@illianetkach' target='_blank' alt='Mastodon'><i class="fa-brands fa-mastodon"></i> Mastodon</a>
                             
                         </div>
